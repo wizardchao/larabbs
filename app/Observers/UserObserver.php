@@ -4,6 +4,9 @@ namespace App\Observers;
 
 use App\Models\User;
 
+use App\Models\Topic;
+use App\Handlers\SlugTranslateHandler;
+
 // creating, created, updating, updated, saving,
 // saved,  deleting, deleted, restoring, restored
 
